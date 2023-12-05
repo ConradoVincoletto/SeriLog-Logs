@@ -1,0 +1,21 @@
+2023-12-05 18:23:11.048 -03:00 [INF] Now listening on: http://localhost:5048
+2023-12-05 18:23:11.120 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-05 18:23:11.122 -03:00 [INF] Hosting environment: Development
+2023-12-05 18:23:11.123 -03:00 [INF] Content root path: C:\Users\conra\source\repos\WebApplication1\WebApplication1\
+2023-12-05 18:23:11.792 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5048/swagger/index.html - -
+2023-12-05 18:23:12.239 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5048/_framework/aspnetcore-browser-refresh.js - -
+2023-12-05 18:23:12.241 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5048/_vs/browserLink - -
+2023-12-05 18:23:12.267 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5048/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 15.0911ms
+2023-12-05 18:23:12.273 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5048/swagger/index.html - - - 200 - text/html;charset=utf-8 483.7118ms
+2023-12-05 18:23:12.301 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5048/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.5969ms
+2023-12-05 18:23:12.397 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5048/swagger/v1/swagger.json - -
+2023-12-05 18:23:12.599 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.5777ms
+2023-12-05 18:23:19.572 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5048/User - -
+2023-12-05 18:23:19.586 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.UserController.Get (WebApplication1)'
+2023-12-05 18:23:19.605 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature WebApplication1.Usuário Get() on controller WebApplication1.Controllers.UserController (WebApplication1).
+2023-12-05 18:23:19.610 -03:00 [INF] Rastreio - Entrou no Get
+2023-12-05 18:23:19.704 -03:00 [ERR] Input string was not in a correct format.
+2023-12-05 18:23:19.716 -03:00 [INF] Executing ObjectResult, writing value of type 'WebApplication1.Usuário'.
+2023-12-05 18:23:19.730 -03:00 [INF] Executed action WebApplication1.Controllers.UserController.Get (WebApplication1) in 114.523ms
+2023-12-05 18:23:19.735 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.UserController.Get (WebApplication1)'
+2023-12-05 18:23:19.738 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5048/User - - - 200 - application/json;+charset=utf-8 165.6545ms
